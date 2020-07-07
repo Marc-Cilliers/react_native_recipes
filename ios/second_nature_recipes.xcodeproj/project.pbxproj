@@ -12,6 +12,7 @@
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		26B501AA24B4D47200807685 /* FontAwesome5Pro-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 26B501A924B4D47200807685 /* FontAwesome5Pro-Light.otf */; };
 		29CE5914A5CB62E94355AA60 /* libPods-second_nature_recipes-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB2B5A41889D481B5D56A648 /* libPods-second_nature_recipes-tvOS.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -57,6 +58,7 @@
 		17DEEFC7DFD3A103E3E9F16E /* Pods-second_nature_recipes-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-second_nature_recipes-tvOS.release.xcconfig"; path = "Target Support Files/Pods-second_nature_recipes-tvOS/Pods-second_nature_recipes-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		1F5E236B1CE74F59837F5337 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 		21848FCAA2E14C95806C9D3C /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		26B501A924B4D47200807685 /* FontAwesome5Pro-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "FontAwesome5Pro-Light.otf"; path = "../src/assets/fonts/FontAwesome5Pro-Light.otf"; sourceTree = "<group>"; };
 		2844EED00CF749339DB5189D /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* second_nature_recipes-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "second_nature_recipes-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* second_nature_recipes-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "second_nature_recipes-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -173,6 +175,7 @@
 				EFCB13C316DD4F4AA9B4B2E7 /* EvilIcons.ttf */,
 				1F5E236B1CE74F59837F5337 /* Feather.ttf */,
 				C52D7AAEFC61424DBE0485FE /* FontAwesome.ttf */,
+				26B501A924B4D47200807685 /* FontAwesome5Pro-Light.otf */,
 				5F6F6AFFDA144C63867B1F66 /* FontAwesome5_Brands.ttf */,
 				BB36EAE9C3364263BECF468A /* FontAwesome5_Regular.ttf */,
 				0C36F5766CA44DA495BF0D6C /* FontAwesome5_Solid.ttf */,
@@ -380,6 +383,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				26B501AA24B4D47200807685 /* FontAwesome5Pro-Light.otf in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
