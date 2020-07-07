@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "borderRadius": 10,
+      "borderWidth": 1,
+      "flex": 1,
+      "flexDirection": "row",
+      "padding": 10,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "fontFamily": "FontAwesome5Pro-Light",
+        "fontSize": 25,
+        "marginRight": 40,
+        "width": 25,
+      }
+    }
+  >
+    
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontWeight": "700",
+      }
+    }
+  >
+    4 servings
+  </Text>
+</View>
+`;
