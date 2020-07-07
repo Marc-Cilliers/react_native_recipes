@@ -1,4 +1,5 @@
 // @ flow
+import fetch from 'isomorphic-fetch';
 
 const getAllRecipes = async () => {
   try {
