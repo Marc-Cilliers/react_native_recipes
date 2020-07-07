@@ -11,7 +11,7 @@ const RecipeListScreen = ({}: Props): Object => {
 
   useEffect(() => {
     api.getAllRecipes().then((allRecipes) => setRecipes(allRecipes));
-  });
+  }, []);
 
   const recipeTapHandler = () => {};
 
