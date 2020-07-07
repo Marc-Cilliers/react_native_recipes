@@ -32,128 +32,200 @@ exports[`renders correctly 1`] = `
   <View
     style={
       Object {
+        "alignItems": "flex-start",
         "flexDirection": "row",
+        "flexShrink": 1,
         "justifyContent": "flex-start",
         "marginBottom": 5,
+        "marginLeft": 5,
       }
     }
   >
-    <Text>
+    <Text
+      style={
+        Object {
+          "flexShrink": 1,
+          "fontSize": 16,
+        }
+      }
+    >
       •
-    </Text>
-    <Text>
+       
       Item 1
     </Text>
   </View>
   <View
     style={
       Object {
+        "alignItems": "flex-start",
         "flexDirection": "row",
+        "flexShrink": 1,
         "justifyContent": "flex-start",
         "marginBottom": 5,
+        "marginLeft": 5,
       }
     }
   >
-    <Text>
+    <Text
+      style={
+        Object {
+          "flexShrink": 1,
+          "fontSize": 16,
+        }
+      }
+    >
       •
-    </Text>
-    <Text>
+       
       Item 2
     </Text>
   </View>
   <View
     style={
       Object {
+        "alignItems": "flex-start",
         "flexDirection": "row",
+        "flexShrink": 1,
         "justifyContent": "flex-start",
         "marginBottom": 5,
+        "marginLeft": 5,
       }
     }
   >
-    <Text>
+    <Text
+      style={
+        Object {
+          "flexShrink": 1,
+          "fontSize": 16,
+        }
+      }
+    >
       •
-    </Text>
-    <Text>
+       
       Item 3
     </Text>
   </View>
   <View
     style={
       Object {
+        "alignItems": "flex-start",
         "flexDirection": "row",
+        "flexShrink": 1,
         "justifyContent": "flex-start",
         "marginBottom": 5,
+        "marginLeft": 5,
       }
     }
   >
-    <Text>
+    <Text
+      style={
+        Object {
+          "flexShrink": 1,
+          "fontSize": 16,
+        }
+      }
+    >
       •
-    </Text>
-    <Text>
+       
       Item 4
     </Text>
   </View>
   <View
     style={
       Object {
+        "alignItems": "flex-start",
         "flexDirection": "row",
+        "flexShrink": 1,
         "justifyContent": "flex-start",
         "marginBottom": 5,
+        "marginLeft": 5,
       }
     }
   >
-    <Text>
+    <Text
+      style={
+        Object {
+          "flexShrink": 1,
+          "fontSize": 16,
+        }
+      }
+    >
       •
-    </Text>
-    <Text>
+       
       Item 5
     </Text>
   </View>
   <View
     style={
       Object {
+        "alignItems": "flex-start",
         "flexDirection": "row",
+        "flexShrink": 1,
         "justifyContent": "flex-start",
         "marginBottom": 5,
+        "marginLeft": 5,
       }
     }
   >
-    <Text>
+    <Text
+      style={
+        Object {
+          "flexShrink": 1,
+          "fontSize": 16,
+        }
+      }
+    >
       •
-    </Text>
-    <Text>
+       
       Item 6
     </Text>
   </View>
   <View
     style={
       Object {
+        "alignItems": "flex-start",
         "flexDirection": "row",
+        "flexShrink": 1,
         "justifyContent": "flex-start",
         "marginBottom": 5,
+        "marginLeft": 5,
       }
     }
   >
-    <Text>
+    <Text
+      style={
+        Object {
+          "flexShrink": 1,
+          "fontSize": 16,
+        }
+      }
+    >
       •
-    </Text>
-    <Text>
+       
       Item 7
     </Text>
   </View>
   <View
     style={
       Object {
+        "alignItems": "flex-start",
         "flexDirection": "row",
+        "flexShrink": 1,
         "justifyContent": "flex-start",
         "marginBottom": 5,
+        "marginLeft": 5,
       }
     }
   >
-    <Text>
+    <Text
+      style={
+        Object {
+          "flexShrink": 1,
+          "fontSize": 16,
+        }
+      }
+    >
       •
-    </Text>
-    <Text>
+       
       Item 8
     </Text>
   </View>
