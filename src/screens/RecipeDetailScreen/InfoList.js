@@ -6,26 +6,21 @@ type Props = {
   content: Array<any>,
   numbered: boolean,
 };
-const InfoList = ({title, content, numbered}): Object => {
-  const ContentList = () => {
-    content.map((c, i) => {
-      return (
-        <View style={styles.row}>
-          {numbered && <Text>{i + 1}</Text>}
-          {!numbered && <Text>•</Text>}
-          <Text>c.ingredient</Text>
-          <Text>c.amount {c.orAmount && `| ${c.orAmount}`}</Text>
-        </View>
-      );
-    });
-  };
 
+const InfoList = ({title, content, numbered}: Props): Object => {
   return (
     <View style={styles.container}>
       <Text style={styles.header}>{title}</Text>
       <View style={styles.seperator} />
 
-      <ContentList />
+      {content.map((c, i) => (
+        <View key={i} style={styles.row}>
+          {numbered && <Text>{i + 1}</Text>}
+          {!numbered && <Text>•</Text>}
+          <Text>c.ingredient</Text>
+          <Text>c.amount {c.orAmount && `| ${c.orAmount}`}</Text>
+        </View>
+      ))}
     </View>
   );
 };
