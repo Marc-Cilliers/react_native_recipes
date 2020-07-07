@@ -1,8 +1,9 @@
 // @flow
 
 import React, {useState, useEffect} from 'react';
-import {StyleSheet} from 'react-native';
+import {StyleSheet, FlatList} from 'react-native';
 import api from '../../services/api';
+import RecipeList from './RecipeList';
 
 type Props = {};
 const RecipeListScreen = ({}: Props): Object => {
@@ -11,6 +12,10 @@ const RecipeListScreen = ({}: Props): Object => {
   useEffect(() => {
     api.getAllRecipes().then((allRecipes) => setRecipes(allRecipes));
   });
+
+  const recipeTapHandler = () => {};
+
+  return <RecipeList recipes={recipes} onRecipeTap={recipeTapHandler} />;
 };
 
 const styles = StyleSheet.create({});
