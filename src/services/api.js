@@ -11,6 +11,6 @@ const getAllRecipes = async () => {
   }
 };
 
-module.export({
+module.exports = {
   getAllRecipes,
-});
+};
