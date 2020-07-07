@@ -4,7 +4,7 @@ type Ingredient = {
   orAmount?: string,
 };
 
-type Recipe = {
+export type Recipe = {
   method: Array<string>,
   ingredients: Array<Ingredient>,
   servings: number,
@@ -12,5 +12,3 @@ type Recipe = {
   title: string,
   imageUrl: string,
 };
-
-export default Recipe;
