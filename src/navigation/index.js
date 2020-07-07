@@ -9,11 +9,13 @@ import RecipeListScreen from '../screens/RecipeListScreen';
 const Stack = createStackNavigator();
 
 const RootStack = (): Object => {
-  <NavigationContainer>
-    <Stack.Navigator initialRouteName="Recipes">
-      <Stack.Screen name="Recipes" component={RecipeListScreen} />
-    </Stack.Navigator>
-  </NavigationContainer>;
+  return (
+    <NavigationContainer>
+      <Stack.Navigator initialRouteName="Recipes">
+        <Stack.Screen name="Recipes" component={RecipeListScreen} />
+      </Stack.Navigator>
+    </NavigationContainer>
+  );
 };
 
 export default RootStack;
