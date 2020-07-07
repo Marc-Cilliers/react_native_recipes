@@ -12,7 +12,6 @@ type Props = {
 
 const RecipeList = ({recipes, onRecipeTap}: Props): Object => {
   const _keyExtractor = (item, index) => index.toString();
-  console.log('The recipes coming in are: ', recipes);
   return (
     <FlatList
       data={recipes}
