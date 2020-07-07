@@ -9,12 +9,14 @@ it('renders correctly', () => {
       <InfoList
         title={'Ingredients'}
         content={[
-          {ingredient: 'peaches', amount: '4'},
-          {ingredient: 'butter', amount: '2 tbsp'},
-          {ingredient: 'cinnamon', amount: '1 tsp'},
-          {ingredient: 'pecans', amount: '120g'},
-          {ingredient: 'rolled oats', amount: '30g'},
-          {ingredient: 'plain Greek yoghurt', amount: '4 tbsp'},
+          'Item 1',
+          'Item 2',
+          'Item 3',
+          'Item 4',
+          'Item 5',
+          'Item 6',
+          'Item 7',
+          'Item 8',
         ]}
         numbered={false}
       />,
