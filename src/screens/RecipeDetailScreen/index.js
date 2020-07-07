@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import {StyleSheet, View, Image, ActivityIndicator} from 'react-native';
+import {ScrollView} from 'react-native-gesture-handler';
 
 type Props = {
   navigation: any,
@@ -11,19 +12,26 @@ const RecipeDetailScreen = ({navigation, route}: Props): Object => {
   const [loading, setLoading] = useState(true);
 
   return (
-    <View style={styles.jumbotron}>
-      <Image
-        source={{uri: recipe.imageUrl}}
-        onLoadEnd={() => setLoading(false)}
-      />
-      <ActivityIndicator style={styles.spinner} animating={loading} />
-    </View>
+    <ScrollView>
+      <View style={styles.jumbotron}>
+        <Image
+          style={styles.image}
+          source={{uri: recipe.imageUrl}}
+          onLoadEnd={() => setLoading(false)}
+        />
+        <ActivityIndicator style={styles.spinner} animating={loading} />
+      </View>
+    </ScrollView>
   );
 };
 
 const styles = StyleSheet.create({
   jumbotron: {
     height: 300,
+    width: '100%',
+  },
+  image: {
+    height: '100%',
     width: '100%',
   },
   spinner: {
