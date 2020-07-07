@@ -17,16 +17,22 @@ const InfoBadge = ({icon, text}: Props): Object => {
 
 const styles = StyleSheet.create({
   container: {
+    flexDirection: 'row',
+    alignItems: 'center',
     padding: 10,
     borderRadius: 10,
     borderWidth: 1,
+    flex: 1,
   },
   icon: {
     fontFamily: 'FontAwesome5Pro-Light',
     fontSize: 25,
-    marginRight: 25,
+    width: 25,
+    marginRight: 40,
   },
   text: {
-    fontWeight: 700,
+    fontWeight: '700',
   },
 });
+
+export default InfoBadge;
