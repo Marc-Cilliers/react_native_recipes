@@ -19,6 +19,7 @@ const RootStack = (): Object => {
           component={RecipeDetailScreen}
           options={({route}) => ({
             title: route.params.recipe.title,
+            headerBackTitle: 'Back',
           })}
         />
       </Stack.Navigator>
