@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "column",
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "fontSize": 20,
+        "fontWeight": "700",
+      }
+    }
+  >
+    Ingredients
+  </Text>
+  <View
+    style={
+      Object {
+        "backgroundColor": "grey",
+        "height": 1,
+        "width": "90%",
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "space-around",
+      }
+    }
+  >
+    <Text>
+      •
+    </Text>
+    <Text>
+      c.ingredient
+    </Text>
+    <Text>
+      c.amount 
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "space-around",
+      }
+    }
+  >
+    <Text>
+      •
+    </Text>
+    <Text>
+      c.ingredient
+    </Text>
+    <Text>
+      c.amount 
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "space-around",
+      }
+    }
+  >
+    <Text>
+      •
+    </Text>
+    <Text>
+      c.ingredient
+    </Text>
+    <Text>
+      c.amount 
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "space-around",
+      }
+    }
+  >
+    <Text>
+      •
+    </Text>
+    <Text>
+      c.ingredient
+    </Text>
+    <Text>
+      c.amount 
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "space-around",
+      }
+    }
+  >
+    <Text>
+      •
+    </Text>
+    <Text>
+      c.ingredient
+    </Text>
+    <Text>
+      c.amount 
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "space-around",
+      }
+    }
+  >
+    <Text>
+      •
+    </Text>
+    <Text>
+      c.ingredient
+    </Text>
+    <Text>
+      c.amount 
+    </Text>
+  </View>
+</View>
+`;
