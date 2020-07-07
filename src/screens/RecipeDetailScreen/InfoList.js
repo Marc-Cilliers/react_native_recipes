@@ -15,9 +15,10 @@ const InfoList = ({title, content, numbered}: Props): Object => {
 
       {content.map((c, i) => (
         <View key={i} style={styles.row}>
-          {numbered && <Text>{i + 1}.)</Text>}
-          {!numbered && <Text>•</Text>}
-          <Text>{c}</Text>
+          {numbered && <Text style={styles.number}>{i + 1}.)</Text>}
+          <Text style={styles.content}>
+            {!numbered && '•'} {c}
+          </Text>
         </View>
       ))}
     </View>
@@ -29,10 +30,28 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     marginTop: 20,
   },
+  point: {
+    textAlignVertical: 'bottom',
+    fontSize: 5,
+    marginRight: 10,
+  },
+  number: {
+    fontSize: 15,
+    marginRight: 20,
+    width: 20,
+    // width: 30,
+  },
   row: {
+    flexShrink: 1,
+    marginLeft: 5,
     flexDirection: 'row',
     marginBottom: 5,
     justifyContent: 'flex-start',
+    alignItems: 'flex-start',
+  },
+  content: {
+    flexShrink: 1,
+    fontSize: 16,
   },
   header: {
     fontSize: 25,
