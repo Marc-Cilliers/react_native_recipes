@@ -12,12 +12,12 @@ type Props = {
 
 const RecipeList = ({recipes, onRecipeTap}: Props): Object => {
   const _keyExtractor = (item, index) => index.toString();
-
+  console.log('The recipes coming in are: ', recipes);
   return (
     <FlatList
       data={recipes}
       keyExtractor={_keyExtractor}
-      renderItem={(item: Recipe, index) => (
+      renderItem={({item, index}) => (
         <ListItem
           onPress={() => onRecipeTap(item)}
           leftAvatar={{source: {uri: item.imageUrl}}}
